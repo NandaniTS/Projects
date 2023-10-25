@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing Piano</title>
+    <link rel="stylesheet" href="./piano.css">
+</head>
+<body>
+    <div id="main">
+        <nav>
+            <ul>
+                <li>Playable PIANO</li>
+                <li><label for="">Volume</label><input type="range" id="volumeRange" oninput="adjustVolume()"> </li>
+                <li>Show Keys<button id="tag" onclick="togglebtn()"><span id="circle"></span></button></li>  
+            </ul>
+        </nav>
+        <div id="buttons">
+            <div id="first">
+                <button class="st1 st" id="A" onclick="playSound('./tunes/a.wav')"><span onclick="show()" class="text">A</span></button>
+                <button class="st1 st" id="S" onclick="playSound('./tunes/s.wav')" ><span onclick="show()" class="text">S</span></button>
+                <button class="st1 st" id="D" onclick="playSound('./tunes/d.wav')" ><span class="text">D</span></button>
+                <button class="up1 st" id="W" onclick="playSound('./tunes/w.wav')" ><span class="text">W</span></button>
+                <button class="up1 st" id="E" onclick="playSound('./tunes/e.wav')"><span class="text">E</span></button>
+            </div>
+            <div id="second">
+                <button class="st2 st" id="F" onclick="playSound('./tunes/f.wav')"><span class="text">F</span></button>
+                <button class="st2 st" id="G" onclick="playSound('./tunes/g.wav')"><span class="text">G</span></button>
+                <button class="st2 st" id="H" onclick="playSound('./tunes/h.wav')"><span class="text">H</span></button>
+                <button class="st2 st" id="J" onclick="playSound('./tunes/j.wav')"><span class="text">J</span></button>
+                <button class="up2 st" id="T" onclick="playSound('./tunes/t.wav')"><span class="text">T</span></button>
+                <button class="up2 st" id="Y" onclick="playSound('./tunes/y.wav')"><span class="text">Y</span></button>
+                <button class="up2 st" id="U" onclick="playSound('./tunes/u.wav')"><span class="text">U</span></button>
+            </div>
+            <div id="third">
+                <button class="st3 st" id="K" onclick="playSound('./tunes/k.wav')" ><span class="text">K</span></button>
+                <button class="st3 st" id="L" onclick="playSound('./tunes/l.wav')"><span class="text" >L</span></button>
+                <button class="st3 st" id="M" onclick="playSound('./tunes/;.wav')"><span class="text">M</span></button>
+                <button class="up3" id="O" onclick="playSound('./tunes/o.wav')"><span class="text">O</span></button>
+                <button class="up3" id="P" onclick="playSound('./tunes/p.wav')"><span class="text">P</span></button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./piano.js"></script>
+</html>
