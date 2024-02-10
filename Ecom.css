@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(237, 235, 235);
+}
+
+nav{
+    height: 100px;
+    width: 100vw;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+nav #first{
+    height: 11vh;
+    width: 15vw;
+    margin-left: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;  
+
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+nav #second{
+    height: 11vh;
+    width: 40vw;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+#third{
+    margin-right: 20px;
+    height: 11vh;
+    width: 15vw;
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+}
+
+#third button{
+    border: none;
+    background-color: transparent;
+}
+
+#third button img{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+
+    
+}
+
+
+#main{
+    height: 50vh;
+    width: 100vw;
+    background-color:rgb(182, 179, 179) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#main h1 span{
+    color: rgb(255, 166, 0);
+}
+
+#main p{
+    font-size: 20px;
+}
+
+#main button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#faci
+{
+    height: 55vh;
+    width: 100vw;
+    background-color:rgb(237, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px
+}
+
+.display{
+    height: 320px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fea{
+    display: inline-block;
+    height: 50px;
+    width: 230px;
+    background-color: orange;
+    clip-path: polygon(100% 0, 85% 47%, 100% 100%, 0% 100%, 12% 49%, 0% 0%);
+    color: white;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+center h2{
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+#product{
+    height: 400px;
+    width: 100vw;
+    background-color:rgb(237, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px
+}
+
+.vege{
+    height: 150px;
+    width: 150px;
+}
+
+.display button{
+    height: 40px;
+    width: 100px; 
+    background-color: transparent;
+}
+
+.frst{
+    margin-top: 70px;
+    height:420px ;
+}
+#footer{
+    height: 400px;
+    width: 100vw;
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around; 
+    padding: 50px;
+}
+
+.f1{
+    height:100% ;
+    width: 22%;
+    margin: 10px;
+    /* background-color: skyblue; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+}
+.f1 h2{
+    color: rgb(17, 17, 66);
+    margin-top: 0;
+}
+.f1:nth-child(3) a{
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+}
+.f1:first-child button{
+    height: 50px;
+    width: 50px;
+    margin-top:0 ;
+    background-color: rgb(154, 154, 154);
+    border: none;
+    border-radius: 10px;
+
+}
+
+.f1:last-child input{
+    height: 40px;
+    width: 98%;
+    margin-top: -100px;
+}
+
+.f1:last-child button{
+    margin: 10px;
+    height: 40px;
+    width: 60px;
+}
+
+#social button img{
+    height: 30px;
+    width: 30px;
+}
+
+.cont{
+    height: 30px;
+    width: 30px;
+}
