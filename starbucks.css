@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav
+{
+    height:90px ;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+#logo
+{
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+}
+ul
+{
+    /* margin-right: 15px; */
+    height: 100px;
+    width: 45vw;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+#main
+{
+    display: flex;
+}
+#content
+{
+    margin-left: 20px;
+    height:550px ;
+    width: 50vw;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#image
+{
+    height:550px;
+    width: 50vw;
+    /* border: 1px solid green; */
+}
+h1
+{
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span
+{
+    color: rgba(27,100,27);
+    font-family: cursive;
+}
+a
+{
+    margin-top: 25px;
+    background-color: rgb(11, 141, 11);
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    text-decoration: none;
+}
+p
+{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.blink
+{
+    height: 480px;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 800px;
+}
+.blink:hover
+{
+    transform: translateY(-20px);
+}
+
+
+#blob
+{
+    position: relative;
+    top: 100px;
+    left: 120px;
+    height: 445px;
+    width: 40vw;
+    background-color: rgb(27, 100, 27);
+    border-radius: 100% 0% 0% 0;
+    transition: 0.5s;
+
+}
+
+
+.butter
+{
+    height:120px;
+    width: 90px;
+    /* background-color: none; */
+    /* border: none; */
+    
+}
+.butter:hover
+{
+    transform: translateY(-20px) scale(1.2);
+    
+}
+#pink
+{
+    height: 150px;
+    width: 120px;
+}
+button
+{
+    margin: 20px;
+    margin-top: 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.passive 
+{
+    background-color: rgb(255, 119, 180) !important;
+    visibility: visible !important;
+    
+}
+
+.active
+{
+    background-color: rgb(244, 34, 104) !important;
+    visibility: visible !important;
+    /* transition: 0.5s; */
+}
+
+.green
+{
+    background-color: rgb(27, 100, 27) !important;
+}
